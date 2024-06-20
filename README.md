@@ -21,8 +21,8 @@ python main_test.py --in_img_num 96
 ```
 python main_test.py --in_img_num 10
 ```
-### Test on the DiLiGenT10<sup>2</sup> dataset and DiLiGenT\Pi dataset
-The ground truth of the the DiLiGenT10<sup>2</sup> dataset and DiLiGenT\Pi dataset is not open, you can use these codes to estimate normal maps and submit the estimated normal maps to the corresponding website for evaluation of normal errors.
+### Test on the DiLiGenT10<sup>2</sup> dataset and DiLiGenT-Π dataset
+The ground truth of the the DiLiGenT10<sup>2</sup> dataset and DiLiGenT-Π dataset is not open, you can use these codes to estimate normal maps and submit the estimated normal maps to the corresponding website for evaluation of normal errors.
 
 ## Training
 The training code will be made available soon.
