@@ -22,4 +22,13 @@ python main_test.py --in_img_num 96
 python main_test.py --in_img_num 10
 ```
 ### Test on the DiLiGenT10<sup>2</sup> dataset and DiLiGenT\Pi dataset
-The ground truth of the the DiLiGenT10<sup>2</sup> dataset and DiLiGenT\Pi dataset is not open, 
+The ground truth of the the DiLiGenT10<sup>2</sup> dataset and DiLiGenT\Pi dataset is not open, you can use these codes to estimate normal maps and submit the estimated normal maps to the corresponding website for evaluation of normal errors.
+
+## Training
+The training code will be made available soon.
+
+## Results on the DiLiGenT benchmark dataset
+We have provided the estimated surface normal maps and error maps on the DiLiGenT benchmark dataset under 96 input images in per_trained_model/test/.
+
+## Acknowledgement
+Our code is partially based on https://github.com/guanyingc/PS-FCN.
