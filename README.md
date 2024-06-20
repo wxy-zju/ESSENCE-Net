@@ -21,4 +21,5 @@ python main_test.py --in_img_num 96
 ```
 python main_test.py --in_img_num 10
 ```
-### Test on the DiLiGenT dataset
+### Test on the DiLiGenT10<sup>2</sup> dataset and DiLiGenT\Pi dataset
+The ground truth of the the DiLiGenT10<sup>2</sup> dataset and DiLiGenT\Pi dataset is not open, 
