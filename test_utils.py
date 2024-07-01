@@ -41,6 +41,7 @@ def test(args, split, loader, model, log,epoch, recorder):
             input = model_utils.getInput(data)
             # out_var = fab(1, 2, input, model)
             # out_var, shading_out, shading_out_intra = model(input)
+            print(data['obj'][0],i)
             timer.updateTime('data_p')
             if i%10== 1 or 2  :
                 out_var=fab(1,2,input,model)
