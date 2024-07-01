@@ -2,8 +2,8 @@ from . import model_utils
 
 def buildModel(args):
     print('Creating Model %s' % (args.model))
-    if args.model == 'SGHPS_Net':
-        from models.SGHPS_Net import SGHPSNet
+    if args.model == 'ESSENCE_Net':
+        from models.ESSENCE_Net import ESSENCENET
         model = SGHPSNet()
     else:
         raise Exception("=> Unknown Model '{}'".format(args.model))
