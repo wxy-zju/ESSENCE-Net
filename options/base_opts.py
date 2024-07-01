@@ -14,7 +14,7 @@ class BaseOpts(object):
         #### Model Arguments ####
         self.parser.add_argument('--normalize',  default=True, action='store_false')
         self.parser.add_argument('--in_img_num', default=96,    type=int)
-        self.parser.add_argument('--retrain',    default='./pre_trained_model/SGHPSNet_dense.tar')
+        self.parser.add_argument('--retrain',    default='./pre_trained_model/ESSENCENet_dense.tar')
         self.parser.add_argument('--benchmark', default='DiLiGenT_main')
         self.parser.add_argument('--bm_dir', default='./DiLiGenT/pmsData_crop')
         self.parser.add_argument('--model', default='ESSENCE_Net')
