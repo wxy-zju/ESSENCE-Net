@@ -97,9 +97,9 @@ class Regressor(nn.Module):
         normal = torch.nn.functional.normalize(normal, 2, 1)
         return normal
 
-class SGHPSNet(nn.Module):
+class ESSENCENET(nn.Module):
     def __init__(self):
-        super(SGHPSNet, self).__init__()
+        super(ESSENCENET, self).__init__()
         self.regressor = Regressor()
         self.shading_est = Shading_Est()
         for m in self.modules():
