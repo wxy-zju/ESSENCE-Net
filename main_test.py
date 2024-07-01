@@ -14,7 +14,7 @@ args = base_opts.BaseOpts().parse()
 log  = logger.Logger(args)
 os.environ['CUDA_VISIBLE_DEVICES']='0'
 if args.in_img_num==10:
-    args.retrain='./pre_trained_model/ESSENCENet_sparse.tar'
+    args.retrain='./pre_trained_model/ESSENCENET_sparse.tar'
 def main(args):
     test_loader = custom_data_loader.benchmarkLoader(args)
     model    = custom_model.buildModel(args)
