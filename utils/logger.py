@@ -50,7 +50,7 @@ class Logger(object):
         for i in range(n):
             vutils.save_image(res[i], save_prefix + name_list[i]+'.png')
     def saveImgResults(self, results, split, obj):
-        print(obj)
+        # print(obj)
         res = [img.cpu() for img in results]
         res=torch.cat(res)
 
