@@ -3,7 +3,7 @@
 Xiaoyao Wei, Binjie Ding, Zongrui Li, Boxin Shi, Xudong Jiang, Gang Pan, Qian Zheng, and Yanlong Cao
 
 ## Dependencies
-SGHPS-Net is implemented in PyTorch with Ubuntu 18.04 and an NVIDIA GeForce RTX 3090 GPU (24GB).
+ESSENCE-Net is implemented in PyTorch with Ubuntu 18.04 and an NVIDIA GeForce RTX 3090 GPU (24GB).
 * Python 3.8.5
 * PyTorch (version = 1.90)
 * numpy
