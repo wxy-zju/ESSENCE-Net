@@ -17,7 +17,7 @@ class BaseOpts(object):
         self.parser.add_argument('--retrain',    default='./pre_trained_model/SGHPSNet_dense.tar')
         self.parser.add_argument('--benchmark', default='DiLiGenT_main')
         self.parser.add_argument('--bm_dir', default='./DiLiGenT/pmsData_crop')
-        self.parser.add_argument('--model', default='SGHPS_Net')
+        self.parser.add_argument('--model', default='ESSENCE_Net')
         self.parser.add_argument('--test_batch', default=1, type=int)
 
     def parse(self):
