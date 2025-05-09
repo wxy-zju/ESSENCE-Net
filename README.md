@@ -1,6 +1,6 @@
 # ESSENCE-Net
 ## Revisiting Supervised Learning-based Photometric Stereo Networks
-Xiaoyao Wei, Binjie Ding, Zongrui Li, Boxin Shi, Xudong Jiang, Gang Pan, Qian Zheng, and Yanlong Cao
+Xiaoyao Wei, Zongrui Li, Binjie Ding, Boxin Shi, Xudong Jiang, Gang Pan, Yanlong Cao, and Qian Zheng
 
 ## Dependencies
 ESSENCE-Net is implemented in PyTorch with Ubuntu 18.04 and an NVIDIA GeForce RTX 3090 GPU (24GB).
