@@ -28,7 +28,7 @@ The ground truth of the the DiLiGenT10<sup>2</sup> dataset and DiLiGenT-Π datas
 The training code will be made available soon.
 
 ## Results on the DiLiGenT benchmark dataset
-We have provided the estimated surface normal maps and error maps on the DiLiGenT benchmark dataset under 96 input images in ./pre_trained_model/test/.
+We have provided the estimated surface normal maps (error maps) on the DiLiGenT, DiLiGenT10<sup>2</sup>, DiLiGenT-Π, and DiLiGenRT benchmark datasets under 96/100 input images in ./pre_trained_model/.
 
 ## Acknowledgement
 Our code is partially based on https://github.com/guanyingc/PS-FCN.
