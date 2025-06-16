@@ -21,13 +21,13 @@ python main_test.py --in_img_num 96
 ```
 python main_test.py --in_img_num 10
 ```
-### Test on the DiLiGenT10<sup>2</sup> dataset and DiLiGenT-Π dataset
-The ground truth of the the DiLiGenT10<sup>2</sup> dataset and DiLiGenT-Π dataset is not open, you can use these codes to estimate normal maps and submit the estimated normal maps to the corresponding website for evaluation of normal errors.
+### Test on the DiLiGenT10<sup>2</sup> dataset, DiLiGenT-Π dataset, and DiLiGenRT dataset
+The ground truth of the DiLiGenT10<sup>2</sup> dataset, DiLiGenT-Π dataset, and DiLiGenRT dataset is not publicly available. You can use these codes to estimate normal maps and submit the estimated normal maps to the corresponding website for evaluation of normal errors.
 
 ## Training
 The training code will be made available soon.
 
-## Results on the DiLiGenT benchmark dataset
+## Results on the DiLiGenT dataset, DiLiGenT10<sup>2</sup> dataset, DiLiGenT-Π dataset, and DiLiGenRT dataset
 We have provided the estimated surface normal maps (error maps) on the DiLiGenT, DiLiGenT10<sup>2</sup>, DiLiGenT-Π, and DiLiGenRT benchmark datasets under 96/100 input images in ./pre_trained_model/.
 
 ## Acknowledgement
