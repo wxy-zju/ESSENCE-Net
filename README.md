@@ -1,6 +1,7 @@
 # ESSENCE-Net
-## Revisiting Supervised Learning-based Photometric Stereo Networks
+## TPAMI-2025 [Revisiting Supervised Learning-based Photometric Stereo Networks](https://ieeexplore.ieee.org/document/10948383)
 Xiaoyao Wei, Zongrui Li, Binjie Ding, Boxin Shi, Xudong Jiang, Gang Pan, Yanlong Cao, and Qian Zheng
+https://ieeexplore.ieee.org/document/10948383
 
 ## Dependencies
 ESSENCE-Net is implemented in PyTorch with Ubuntu 18.04 and an NVIDIA GeForce RTX 3090 GPU (24GB).
